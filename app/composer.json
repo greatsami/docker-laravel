@@ -11,6 +11,9 @@
   ],
   "require": {
     "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "symfony/cache": "^6.3",
     "predis/predis": "^2.0"
   },
   "require-dev": {
