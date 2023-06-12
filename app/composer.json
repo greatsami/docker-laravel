@@ -1,0 +1,27 @@
+{
+  "name": "greatsami/translatethis",
+  "description": "A Docker demo app for docker",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sami Mansour",
+      "email": "samiman.net@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "predis/predis": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  },
+  "scripts": {
+    "run-phpunit": "vendor/bin/phpunit"
+  }
+}
